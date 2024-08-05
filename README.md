@@ -74,4 +74,87 @@ XGBoost's feature importance analysis identified key variables affecting flight 
 
 The project successfully combined data analysis, feature engineering, and advanced modeling techniques to develop a robust predictive model for flight prices. XGBoost was selected for its superior performance in accuracy and predictive power. The insights gained can help refine pricing strategies and optimize revenue management.
 
+# 8. Gender Classification Project
+
+<p>
+    <img src="https://img.shields.io/badge/Model-Logistic%20Regression-blue" alt="Logistic Regression" />
+    <img src="https://img.shields.io/badge/Model-Random%20Forest%20Classifier-blue" alt="Random Forest Classifier" />
+    <img src="https://img.shields.io/badge/Model-XGBoost-blue" alt="XGBoost" />
+    <img src="https://img.shields.io/badge/Model-KNN-blue" alt="K-Nearest Neighbors" />
+</p>
+
+<p>
+    <img src="https://img.shields.io/badge/Skill-Machine%20Learning-green" alt="Machine Learning" />
+    <img src="https://img.shields.io/badge/Skill-Feature%20Engineering-yellow" alt="Feature Engineering" />
+    <img src="https://img.shields.io/badge/Skill-Model%20Evaluation-red" alt="Model Evaluation" />
+</p>
+
+<p>
+    <img src="https://img.shields.io/badge/Tool-Python-blue" alt="Python" />
+    <img src="https://img.shields.io/badge/Tool-Scikit%20Learn-yellow" alt="Scikit Learn" />
+    <img src="https://img.shields.io/badge/Tool-Pandas-blue" alt="Pandas" />
+    <img src="https://img.shields.io/badge/Tool-Numpy-green" alt="Numpy" />
+    <img src="https://img.shields.io/badge/Tool-Colab%20Notebook-orange" alt="Colab Notebook" />
+</p>
+
+
+## Project Overview
+The goal of this project is to develop a machine learning model to classify gender based on various user features such as company affiliation, age, and other attributes. The project involves data exploration, preprocessing, model training, evaluation, and interpretability analysis.
+
+## Dataset
+The dataset contains user information with features including:
+- `code`
+- `company`
+- `name`
+- `age`
+- `gender`
+
+The dataset is balanced with three gender categories: male, female, and others.
+
+## Exploratory Data Analysis (EDA)
+EDA was performed to understand the distribution and relationships of the features:
+- Analyzed the distribution of gender, age, and company.
+- Visualized the data using bar charts, pie charts, and distribution plots.
+- Checked for correlations between features using a heatmap.
+
+## Data Preprocessing
+Data preprocessing steps included:
+- Encoding categorical variables using one-hot encoding for `gender` and `company`.
+- Applying sentence transformers and PCA for the `name` variable.
+- Scaling numerical features using StandardScaler.
+
+## Modeling
+Several machine learning models were trained and evaluated:
+
+### Logistic Regression
+- Achieved 100% accuracy on both training and test datasets.
+- Selected for its high performance and interpretability.
+
+### Random Forest Classifier
+- Achieved 100% accuracy on both training and test datasets.
+- Offers robust performance and easy interpretability.
+
+### XGBoost
+- Tuned using GridSearchCV for optimal hyperparameters.
+- Provided strong performance with complex datasets.
+
+### K-Nearest Neighbors (KNN)
+- Achieved 89% accuracy on the training set and 77% on the test set.
+- Considered for its simplicity and reasonable performance.
+
+## Model Evaluation
+Models were evaluated using the following metrics:
+
+| Model                   | Test Accuracy | Test Precision | Test Recall |
+|-------------------------|---------------|----------------|-------------|
+| Logistic Regression     | 1.00          | 1.00           | 1.00        |
+| Random Forest Classifier| 1.00          | 1.00           | 1.00        |
+| XGBoost                 | 1.00          | 1.00           | 1.00        |
+| KNN                     | 0.77          | 0.79           | 0.77        |
+
+
+## Conclusion
+The logistic regression model was selected as the final model due to its perfect accuracy and ease of interpretation. SHAP analysis confirmed the model's transparency, making it suitable for deployment and decision-making.
+
+
 
