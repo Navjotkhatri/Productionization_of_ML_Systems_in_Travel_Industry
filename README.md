@@ -100,7 +100,7 @@ REST API for predicting flight prices. The API is built using Flask and is acces
 ## Form Preview
 
 <p align="center">
-    <img src="path/to/your/form-image.png" alt="Flight Price Prediction Form" width="600"/>
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-10%20160011.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
 </p>
 
 
@@ -120,6 +120,10 @@ In this step, the flight price prediction model was containerized using Docker t
 
 - Portability and Deployment: The Docker image can be deployed on any platform that supports Docker, ensuring the model is easily portable and deployable in different environments, including cloud platforms, 
    local machines, or other servers.
+
+<p align="center">
+    <img src="#" alt="Flight Price Prediction Form" width="600"/>
+</p>
 
 # 8. Gender Classification Project
 
