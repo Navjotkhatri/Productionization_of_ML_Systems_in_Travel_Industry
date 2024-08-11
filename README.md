@@ -74,6 +74,53 @@ XGBoost's feature importance analysis identified key variables affecting flight 
 
 The project successfully combined data analysis, feature engineering, and advanced modeling techniques to develop a robust predictive model for flight prices. XGBoost was selected for its superior performance in accuracy and predictive power. The insights gained can help refine pricing strategies and optimize revenue management.
 
+# 2. Flight Price Prediction REST API
+
+REST API for predicting flight prices. The API is built using Flask and is accessible over the internet using `ngrok`.
+
+## Features
+
+- Predict flight prices based on various input parameters such as departure city, destination city, flight type, agency, date, and more.
+- Simple and clean web form for inputting data and receiving predictions.
+- Easily accessible via a public URL using `ngrok`.
+
+## Technologies Used
+
+<p>
+    <img src="https://img.shields.io/badge/Language-Python-blue" alt="Python" />
+    <img src="https://img.shields.io/badge/Language-HTML/CSS-blue" alt="HTML/CSS" />
+    <img src="https://img.shields.io/badge/Framework-Flask-green" alt="Flask" />
+    <img src="https://img.shields.io/badge/Tool-ngrok-orange" alt="ngrok" />
+    <img src="https://img.shields.io/badge/Tool-Pandas-blue" alt="Pandas" />
+    <img src="https://img.shields.io/badge/Tool-Numpy-green" alt="Numpy" />
+    <img src="https://img.shields.io/badge/Tool-Scikit%20Learn-yellow" alt="Scikit Learn" />
+    <img src="https://img.shields.io/badge/Notebook-Google%20Colab-orange" alt="Google Colab" />
+</p>
+
+## Form Preview
+
+<p align="center">
+    <img src="path/to/your/form-image.png" alt="Flight Price Prediction Form" width="600"/>
+</p>
+
+
+# 3. Containerization
+
+In this step, the flight price prediction model was containerized using Docker to ensure seamless deployment and portability across different environments. Packaging the model, its dependencies, and the Flask web application into a Docker container, eliminates the "it works on my machine" problem, ensuring consistent behaviour regardless of where the container is deployed.
+
+## Key Steps:
+
+- Dockerfile Creation: A Dockerfile was crafted to define the environment setup, including the installation of required libraries and the copying of necessary files into the container.
+
+- Environment Configuration: The model and web application dependencies were listed in a requirements.txt file, which was used in the Dockerfile to install all necessary Python packages.
+
+- Building the Docker Image: The Docker image was built using the command docker build -t flight_price_prediction ., which encapsulated the entire application.
+
+- Running the Container: The application was launched in a Docker container using docker run -p 8000:8000 flight_price_prediction, making the Flask web application accessible at http://localhost:8000.
+
+- Portability and Deployment: The Docker image can be deployed on any platform that supports Docker, ensuring the model is easily portable and deployable in different environments, including cloud platforms, 
+   local machines, or other servers.
+
 # 8. Gender Classification Project
 
 <p>
