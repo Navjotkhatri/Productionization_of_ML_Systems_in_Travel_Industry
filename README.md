@@ -122,7 +122,7 @@ In this step, the flight price prediction model was containerized using Docker t
    local machines, or other servers.
 
 <p align="center">
-    <img src="#" alt="Flight Price Prediction Form" width="600"/>
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-11%20132155.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
 </p>
 
 # 8. Gender Classification Project
