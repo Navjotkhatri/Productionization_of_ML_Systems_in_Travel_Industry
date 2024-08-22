@@ -145,7 +145,7 @@ In this section, we deploy our model using Kubernetes to ensure that the applica
 - Resource Management: Efficiently allocates CPU, memory, and storage resources to meet application requirements.
 
 <p align="center">
-    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-11%20132155.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-22%20171816.png" alt="Flight Price Prediction" width="600"/>
 </p>
 
 ## Conclusion
