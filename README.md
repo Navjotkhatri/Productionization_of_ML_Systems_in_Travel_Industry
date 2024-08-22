@@ -125,6 +125,33 @@ In this step, the flight price prediction model was containerized using Docker t
     <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-11%20132155.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
 </p>
 
+# 4. Kubernetes for Scalability
+
+<p>
+    <img src="https://img.shields.io/badge/Deployment-Kubernetes-blue" alt="Kubernetes" />
+    <img src="https://img.shields.io/badge/Scalability-Automatic%20Scaling-blue" alt="Automatic Scaling" />
+    <img src="https://img.shields.io/badge/Load%20Balancing-Enabled-blue" alt="Load Balancing" />
+    <img src="https://img.shields.io/badge/Resource%20Management-Efficient-blue" alt="Resource Management" />
+</p>
+
+## Overview
+In this section, we deploy our model using Kubernetes to ensure that the application can handle varying loads efficiently and scale according to demand. Kubernetes offers robust container orchestration, allowing for seamless scaling, fault tolerance, and efficient resource management.
+
+## Key Features
+- Automatic Scaling: Kubernetes scales your application up or down based on traffic and resource usage, ensuring optimal performance.
+- Load Balancing: Distributes incoming traffic evenly across all available instances of your application.
+- Self-Healing: Automatically restarts failed containers and replaces unresponsive Pods, ensuring high availability.
+- Rolling Updates: Deploy new versions of the model without downtime, with the ability to roll back in case of failure.
+- Resource Management: Efficiently allocates CPU, memory, and storage resources to meet application requirements.
+
+<p align="center">
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-11%20132155.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
+</p>
+
+## Conclusion
+
+Deploying the model with Kubernetes ensures that it can handle varying loads and scale efficiently. This setup provides a robust, scalable, and highly available deployment environment for the application.
+
 # 8. Gender Classification Project
 
 <p>
@@ -150,7 +177,7 @@ In this step, the flight price prediction model was containerized using Docker t
 
 
 ## Project Overview
-The goal of this project is to develop a machine learning model to classify gender based on various user features such as company affiliation, age, and other attributes. The project involves data exploration, preprocessing, model training, evaluation, and interpretability analysis.
+The goal of this project is to develop a machine-learning model to classify gender based on various user features such as company affiliation, age, and other attributes. The project involves data exploration, preprocessing, model training, evaluation, and interpretability analysis.
 
 ## Dataset
 The dataset contains user information with features including:
