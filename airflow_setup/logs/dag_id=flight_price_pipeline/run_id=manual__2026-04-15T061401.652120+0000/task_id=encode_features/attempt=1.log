@@ -1,0 +1,19 @@
+[2026-04-15T06:15:15.934+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-15T06:15:16.007+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_pipeline.encode_features manual__2026-04-15T06:14:01.652120+00:00 [queued]>
+[2026-04-15T06:15:16.024+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_pipeline.encode_features manual__2026-04-15T06:14:01.652120+00:00 [queued]>
+[2026-04-15T06:15:16.026+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-04-15T06:15:16.061+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): encode_features> on 2026-04-15 06:14:01.652120+00:00
+[2026-04-15T06:15:16.086+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2095) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-15T06:15:16.091+0000] {standard_task_runner.py:63} INFO - Started process 2097 to run task
+[2026-04-15T06:15:16.091+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'flight_price_pipeline', 'encode_features', 'manual__2026-04-15T06:14:01.652120+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmp4pz59ze3']
+[2026-04-15T06:15:16.100+0000] {standard_task_runner.py:91} INFO - Job 26: Subtask encode_features
+[2026-04-15T06:15:16.236+0000] {task_command.py:426} INFO - Running <TaskInstance: flight_price_pipeline.encode_features manual__2026-04-15T06:14:01.652120+00:00 [running]> on host b10e990e77bb
+[2026-04-15T06:15:16.471+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_pipeline' AIRFLOW_CTX_TASK_ID='encode_features' AIRFLOW_CTX_EXECUTION_DATE='2026-04-15T06:14:01.652120+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-15T06:14:01.652120+00:00'
+[2026-04-15T06:15:16.477+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-15T06:15:43.198+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-15T06:15:43.205+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-15T06:15:43.268+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=flight_price_pipeline, task_id=encode_features, run_id=manual__2026-04-15T06:14:01.652120+00:00, execution_date=20260415T061401, start_date=20260415T061516, end_date=20260415T061543
+[2026-04-15T06:15:43.447+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-15T06:15:43.493+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

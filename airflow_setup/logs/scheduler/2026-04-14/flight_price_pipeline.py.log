@@ -1,0 +1,1061 @@
+[2026-04-14T02:01:45.297+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:01:45.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:01:45.325+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:45.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:01:45.523+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:01:46.145+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:46.143+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:flight_pipeline_simple
+[2026-04-14T02:01:46.200+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:46.199+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:flight_pipeline_simple
+[2026-04-14T02:01:46.225+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:46.224+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:flight_pipeline_simple
+[2026-04-14T02:01:46.227+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:46.226+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:01:46.264+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:46.263+0000] {dag.py:3118} INFO - Creating ORM DAG for flight_pipeline_simple
+[2026-04-14T02:01:46.267+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:01:46.266+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:01:46.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.148 seconds
+[2026-04-14T02:02:16.633+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:02:16.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:02:16.641+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:02:16.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:02:16.712+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:02:16.777+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:02:16.776+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:02:16.810+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:02:16.809+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:02:16.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.244 seconds
+[2026-04-14T02:02:47.103+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:02:47.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:02:47.111+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:02:47.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:02:47.166+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:02:47.214+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:02:47.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:02:47.254+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:02:47.254+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:02:47.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.224 seconds
+[2026-04-14T02:03:17.516+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:03:17.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:03:17.526+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:03:17.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:03:17.591+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:03:17.686+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:03:17.686+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:03:17.750+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:03:17.750+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:03:17.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.393 seconds
+[2026-04-14T02:03:47.977+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:03:47.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:03:47.981+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:03:47.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:03:48.002+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:03:48.028+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:03:48.028+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:03:48.046+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:03:48.046+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:03:48.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.102 seconds
+[2026-04-14T02:04:19.063+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:04:19.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:04:19.070+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:04:19.069+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:04:19.111+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:04:19.156+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:04:19.155+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:04:19.190+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:04:19.189+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:04:19.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.264 seconds
+[2026-04-14T02:04:49.624+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:04:49.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:04:49.633+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:04:49.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:04:49.672+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:04:49.721+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:04:49.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:04:49.759+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:04:49.758+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:04:49.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.220 seconds
+[2026-04-14T02:05:20.605+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:05:20.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:05:20.615+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:05:20.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:05:20.759+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:05:20.844+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:05:20.843+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:05:20.911+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:05:20.910+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:05:21.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.429 seconds
+[2026-04-14T02:05:51.114+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:05:51.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:05:51.122+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:05:51.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:05:51.165+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:05:51.224+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:05:51.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:05:51.262+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:05:51.262+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:05:51.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.218 seconds
+[2026-04-14T02:06:22.102+0000] {processor.py:161} INFO - Started process (PID=596) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:06:22.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:06:22.114+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:06:22.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:06:22.167+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:06:22.247+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:06:22.246+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:06:22.297+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:06:22.297+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:06:22.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.299 seconds
+[2026-04-14T02:06:52.646+0000] {processor.py:161} INFO - Started process (PID=655) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:06:52.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:06:52.653+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:06:52.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:06:52.699+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:06:52.746+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:06:52.746+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:06:52.785+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:06:52.785+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:06:52.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.242 seconds
+[2026-04-14T02:07:23.366+0000] {processor.py:161} INFO - Started process (PID=715) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:07:23.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:07:23.373+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:07:23.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:07:23.410+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:07:23.457+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:07:23.457+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:07:23.489+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:07:23.489+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:07:23.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.258 seconds
+[2026-04-14T02:07:54.254+0000] {processor.py:161} INFO - Started process (PID=774) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:07:54.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:07:54.261+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:07:54.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:07:54.301+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:07:54.346+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:07:54.345+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:07:54.377+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:07:54.376+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:07:54.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.190 seconds
+[2026-04-14T02:08:24.683+0000] {processor.py:161} INFO - Started process (PID=833) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:08:24.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:08:24.693+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:08:24.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:08:24.735+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:08:24.821+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:08:24.820+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:08:24.883+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:08:24.882+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:08:25.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.345 seconds
+[2026-04-14T02:08:55.427+0000] {processor.py:161} INFO - Started process (PID=891) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:08:55.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:08:55.434+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:08:55.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:08:55.473+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:08:55.525+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:08:55.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:08:55.559+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:08:55.559+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:08:55.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.201 seconds
+[2026-04-14T02:09:26.254+0000] {processor.py:161} INFO - Started process (PID=951) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:09:26.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:09:26.258+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:09:26.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:09:26.278+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:09:26.301+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:09:26.300+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:09:26.317+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:09:26.316+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:09:26.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.175 seconds
+[2026-04-14T02:09:56.762+0000] {processor.py:161} INFO - Started process (PID=1010) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:09:56.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:09:56.766+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:09:56.766+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:09:56.784+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:09:56.806+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:09:56.805+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:09:56.819+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:09:56.819+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:09:56.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.180 seconds
+[2026-04-14T02:10:27.277+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:10:27.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:10:27.280+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:10:27.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:10:27.300+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:10:27.323+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:10:27.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:10:27.336+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:10:27.336+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:10:27.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.176 seconds
+[2026-04-14T02:10:58.271+0000] {processor.py:161} INFO - Started process (PID=1134) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:10:58.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:10:58.277+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:10:58.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:10:58.321+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:10:58.364+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:10:58.364+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:10:58.395+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:10:58.395+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:10:58.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.192 seconds
+[2026-04-14T02:11:28.659+0000] {processor.py:161} INFO - Started process (PID=1193) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:11:28.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:11:28.665+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:11:28.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:11:28.704+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:11:28.752+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:11:28.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:11:28.786+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:11:28.785+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:11:28.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.265 seconds
+[2026-04-14T02:11:59.495+0000] {processor.py:161} INFO - Started process (PID=1252) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:11:59.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:11:59.501+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:11:59.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:11:59.545+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:11:59.589+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:11:59.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:11:59.619+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:11:59.619+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:11:59.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.260 seconds
+[2026-04-14T02:12:30.633+0000] {processor.py:161} INFO - Started process (PID=1311) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:30.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:12:30.644+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:30.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:30.682+0000] {processor.py:840} INFO - DAG(s) 'flight_pipeline_simple' retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:30.743+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:30.742+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-14T02:12:30.790+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:30.790+0000] {dag.py:3954} INFO - Setting next_dagrun for flight_pipeline_simple to None, run_after=None
+[2026-04-14T02:12:30.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.237 seconds
+[2026-04-14T02:12:51.450+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:51.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:12:51.457+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:51.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:51.474+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:51.474+0000] {dagbag.py:334} INFO - File /opt/airflow/dags/flight_price_pipeline.py assumed to contain no DAGs. Skipping.
+[2026-04-14T02:12:51.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:51.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.070 seconds
+[2026-04-14T02:12:53.520+0000] {processor.py:161} INFO - Started process (PID=1365) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:53.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:12:53.529+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:53.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:54.604+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:12:54.592+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:12:54.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:12:54.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.145 seconds
+[2026-04-14T02:13:24.951+0000] {processor.py:161} INFO - Started process (PID=1425) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:13:24.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:13:24.958+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:13:24.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:13:25.956+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:13:25.947+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:13:25.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:13:25.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.056 seconds
+[2026-04-14T02:14:32.606+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:14:32.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:14:32.637+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:14:32.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:14:34.026+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:14:34.016+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:14:34.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:14:34.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.594 seconds
+[2026-04-14T02:15:04.506+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:15:04.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:15:04.515+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:15:04.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:15:05.909+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:15:05.895+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:15:05.913+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:15:05.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.464 seconds
+[2026-04-14T02:15:36.206+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:15:36.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:15:36.211+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:15:36.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:15:37.212+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:15:37.200+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:15:37.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:15:37.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.063 seconds
+[2026-04-14T02:16:07.384+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:16:07.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:16:07.390+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:16:07.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:16:09.291+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:16:09.271+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:16:09.298+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:16:09.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 2.015 seconds
+[2026-04-14T02:16:39.922+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:16:39.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:16:39.933+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:16:39.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:16:42.018+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:16:42.004+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:16:42.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:16:42.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 2.212 seconds
+[2026-04-14T02:17:12.319+0000] {processor.py:161} INFO - Started process (PID=376) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:17:12.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:17:12.323+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:17:12.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:17:13.465+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:17:13.455+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:17:13.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:17:13.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.202 seconds
+[2026-04-14T02:17:43.861+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:17:43.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:17:43.895+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:17:43.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:17:45.246+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:17:45.236+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:17:45.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:17:45.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.456 seconds
+[2026-04-14T02:18:15.808+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:18:15.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:18:15.814+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:18:15.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:18:17.524+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:18:17.514+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:18:17.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:18:17.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.808 seconds
+[2026-04-14T02:18:47.817+0000] {processor.py:161} INFO - Started process (PID=568) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:18:47.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:18:47.821+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:18:47.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:18:49.051+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:18:49.042+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:18:49.054+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:18:49.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.302 seconds
+[2026-04-14T02:19:19.672+0000] {processor.py:161} INFO - Started process (PID=630) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:19:19.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:19:19.677+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:19:19.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:19:20.836+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:19:20.827+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:19:20.840+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:19:20.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.222 seconds
+[2026-04-14T02:19:51.270+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:19:51.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:19:51.280+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:19:51.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:19:52.996+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:19:52.978+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:19:53.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:19:53.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.831 seconds
+[2026-04-14T02:20:23.273+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:20:23.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:20:23.278+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:20:23.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:20:24.357+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:20:24.346+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:20:24.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:20:24.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.217 seconds
+[2026-04-14T02:20:55.274+0000] {processor.py:161} INFO - Started process (PID=819) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:20:55.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:20:55.279+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:20:55.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:20:56.273+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:20:56.261+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:20:56.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:20:56.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.057 seconds
+[2026-04-14T02:21:26.653+0000] {processor.py:161} INFO - Started process (PID=880) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:21:26.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:21:26.658+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:21:26.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:21:27.680+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:21:27.671+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:21:27.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:21:27.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.084 seconds
+[2026-04-14T02:21:58.334+0000] {processor.py:161} INFO - Started process (PID=942) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:21:58.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:21:58.340+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:21:58.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:21:59.427+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:21:59.416+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:21:59.431+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:21:59.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.154 seconds
+[2026-04-14T02:22:29.686+0000] {processor.py:161} INFO - Started process (PID=1005) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:22:29.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:22:29.690+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:22:29.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:22:30.799+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:22:30.789+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:22:30.803+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:22:30.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.170 seconds
+[2026-04-14T02:23:01.262+0000] {processor.py:161} INFO - Started process (PID=1068) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:23:01.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:23:01.269+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:23:01.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:23:02.578+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:23:02.565+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:23:02.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:23:02.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.446 seconds
+[2026-04-14T02:23:32.900+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:23:32.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:23:32.905+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:23:32.904+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:23:33.891+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:23:33.882+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:23:33.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:23:33.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.045 seconds
+[2026-04-14T02:24:04.039+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:24:04.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:24:04.044+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:24:04.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:24:05.086+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:24:05.075+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:24:05.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:24:05.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.101 seconds
+[2026-04-14T02:24:35.981+0000] {processor.py:161} INFO - Started process (PID=1254) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:24:35.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:24:35.985+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:24:35.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:24:37.038+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:24:37.029+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:24:37.041+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:24:37.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.110 seconds
+[2026-04-14T02:25:07.374+0000] {processor.py:161} INFO - Started process (PID=1318) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:25:07.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:25:07.379+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:25:07.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:25:08.444+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:25:08.432+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:25:08.448+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:25:08.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.126 seconds
+[2026-04-14T02:25:38.632+0000] {processor.py:161} INFO - Started process (PID=1378) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:25:38.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:25:38.637+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:25:38.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:25:39.697+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:25:39.688+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:25:39.700+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:25:39.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.186 seconds
+[2026-04-14T02:26:10.178+0000] {processor.py:161} INFO - Started process (PID=1438) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:26:10.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:26:10.193+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:26:10.191+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:26:12.140+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:26:12.127+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:26:12.143+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:26:12.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 2.093 seconds
+[2026-04-14T02:26:42.719+0000] {processor.py:161} INFO - Started process (PID=1502) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:26:42.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:26:42.724+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:26:42.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:26:43.745+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:26:43.734+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:26:43.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:26:43.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.084 seconds
+[2026-04-14T02:27:14.435+0000] {processor.py:161} INFO - Started process (PID=1565) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:27:14.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:27:14.440+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:27:14.440+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:27:15.429+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:27:15.418+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:27:15.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:27:15.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.057 seconds
+[2026-04-14T02:27:45.775+0000] {processor.py:161} INFO - Started process (PID=1625) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:27:45.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:27:45.781+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:27:45.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:27:46.529+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:27:46.516+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_price_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 2, in <module>
+    from sklearn.linear_model import LinearRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2026-04-14T02:27:46.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:27:46.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 0.821 seconds
+[2026-04-14T02:31:41.893+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:31:41.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:31:41.901+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:31:41.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:31:50.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:31:50.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 9.040 seconds
+[2026-04-14T02:32:21.333+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:32:21.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:32:21.356+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:32:21.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:32:29.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:32:29.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 8.327 seconds
+[2026-04-14T02:32:59.792+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:32:59.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:32:59.799+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:32:59.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:33:03.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:33:03.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.510 seconds
+[2026-04-14T02:33:33.924+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:33:33.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:33:33.935+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:33:33.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:33:37.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:33:37.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.872 seconds
+[2026-04-14T02:34:08.094+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:34:08.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:34:08.101+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:34:08.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:34:12.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:34:12.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.125 seconds
+[2026-04-14T02:34:42.432+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:34:42.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:34:42.438+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:34:42.437+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:34:50.970+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:34:51.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 8.602 seconds
+[2026-04-14T02:35:21.430+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:35:21.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:35:21.592+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:35:21.590+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:35:28.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:35:28.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.985 seconds
+[2026-04-14T02:35:59.450+0000] {processor.py:161} INFO - Started process (PID=659) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:35:59.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:35:59.457+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:35:59.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:36:03.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:36:03.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.151 seconds
+[2026-04-14T02:36:34.045+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:36:34.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:36:34.061+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:36:34.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:36:39.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:36:39.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.838 seconds
+[2026-04-14T02:37:10.542+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:37:10.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:37:10.549+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:37:10.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:37:14.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:37:14.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.905 seconds
+[2026-04-14T02:37:44.818+0000] {processor.py:161} INFO - Started process (PID=899) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:37:44.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:37:44.825+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:37:44.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:37:48.257+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:37:48.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.480 seconds
+[2026-04-14T02:38:19.083+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:38:19.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:38:19.090+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:38:19.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:38:22.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:38:22.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.225 seconds
+[2026-04-14T02:38:52.733+0000] {processor.py:161} INFO - Started process (PID=1042) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:38:52.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:38:52.741+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:38:52.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:38:56.066+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:38:56.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.374 seconds
+[2026-04-14T02:39:26.282+0000] {processor.py:161} INFO - Started process (PID=1114) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:39:26.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:39:26.290+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:39:26.290+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:39:29.495+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:39:29.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.255 seconds
+[2026-04-14T02:39:59.797+0000] {processor.py:161} INFO - Started process (PID=1185) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:39:59.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:39:59.806+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:39:59.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:40:03.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:40:03.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.591 seconds
+[2026-04-14T02:40:33.766+0000] {processor.py:161} INFO - Started process (PID=1258) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:40:33.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:40:33.776+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:40:33.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:40:39.927+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:40:39.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.207 seconds
+[2026-04-14T02:41:10.170+0000] {processor.py:161} INFO - Started process (PID=1330) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:41:10.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:41:10.195+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:41:10.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:41:15.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:41:15.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.856 seconds
+[2026-04-14T02:41:46.356+0000] {processor.py:161} INFO - Started process (PID=1416) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:41:46.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:41:46.364+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:41:46.363+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:41:53.706+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:41:54.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 8.403 seconds
+[2026-04-14T02:42:25.110+0000] {processor.py:161} INFO - Started process (PID=1493) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:42:25.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:42:25.117+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:42:25.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:42:29.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:42:29.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.457 seconds
+[2026-04-14T02:42:59.759+0000] {processor.py:161} INFO - Started process (PID=1568) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:42:59.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:42:59.766+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:42:59.766+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:43:03.997+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:43:04.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.277 seconds
+[2026-04-14T02:43:34.334+0000] {processor.py:161} INFO - Started process (PID=1650) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:43:34.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:43:34.341+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:43:34.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:43:38.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:43:38.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.972 seconds
+[2026-04-14T02:44:08.498+0000] {processor.py:161} INFO - Started process (PID=1728) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:44:08.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:44:08.506+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:44:08.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:44:12.206+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:44:12.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.746 seconds
+[2026-04-14T02:44:43.017+0000] {processor.py:161} INFO - Started process (PID=1798) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:44:43.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:44:43.024+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:44:43.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:44:44.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:44:44.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 1.817 seconds
+[2026-04-14T02:45:15.540+0000] {processor.py:161} INFO - Started process (PID=1871) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:45:15.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:45:15.548+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:45:15.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:45:18.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:45:18.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.445 seconds
+[2026-04-14T02:45:49.212+0000] {processor.py:161} INFO - Started process (PID=1939) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:45:49.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:45:49.219+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:45:49.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:45:52.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:45:52.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.367 seconds
+[2026-04-14T02:46:23.079+0000] {processor.py:161} INFO - Started process (PID=2014) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:46:23.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:46:23.085+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:46:23.085+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:46:26.539+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:46:26.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.499 seconds
+[2026-04-14T02:46:56.886+0000] {processor.py:161} INFO - Started process (PID=2088) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:46:56.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:46:56.892+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:46:56.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:47:00.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:47:00.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.393 seconds
+[2026-04-14T02:47:30.987+0000] {processor.py:161} INFO - Started process (PID=2159) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:47:30.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:47:30.995+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:47:30.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:47:34.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:47:34.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.413 seconds
+[2026-04-14T02:48:04.944+0000] {processor.py:161} INFO - Started process (PID=2231) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:48:04.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:48:04.952+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:48:04.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:48:09.144+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:48:09.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.239 seconds
+[2026-04-14T02:48:40.052+0000] {processor.py:161} INFO - Started process (PID=2305) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:48:40.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:48:40.060+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:48:40.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:48:43.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:48:43.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.793 seconds
+[2026-04-14T02:49:14.115+0000] {processor.py:161} INFO - Started process (PID=2383) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:49:14.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:49:14.122+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:49:14.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:49:17.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:49:17.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.770 seconds
+[2026-04-14T02:49:48.423+0000] {processor.py:161} INFO - Started process (PID=2467) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:49:48.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:49:48.431+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:49:48.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:49:52.827+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:49:52.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.448 seconds
+[2026-04-14T02:50:23.056+0000] {processor.py:161} INFO - Started process (PID=2541) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:50:23.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:50:23.064+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:50:23.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:50:26.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:50:26.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.504 seconds
+[2026-04-14T02:50:57.042+0000] {processor.py:161} INFO - Started process (PID=2612) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:50:57.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:50:57.048+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:50:57.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:51:00.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:51:00.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.417 seconds
+[2026-04-14T02:51:30.893+0000] {processor.py:161} INFO - Started process (PID=2686) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:51:30.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:51:30.900+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:51:30.899+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:51:34.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:51:34.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.251 seconds
+[2026-04-14T02:52:04.617+0000] {processor.py:161} INFO - Started process (PID=2759) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:52:04.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:52:04.625+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:52:04.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:52:07.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:52:07.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.282 seconds
+[2026-04-14T02:52:38.632+0000] {processor.py:161} INFO - Started process (PID=2830) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:52:38.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:52:38.638+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:52:38.638+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:52:41.887+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:52:41.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.292 seconds
+[2026-04-14T02:53:12.399+0000] {processor.py:161} INFO - Started process (PID=2901) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:53:12.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:53:12.406+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:53:12.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:53:15.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:53:15.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.280 seconds
+[2026-04-14T02:53:45.922+0000] {processor.py:161} INFO - Started process (PID=2974) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:53:45.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:53:45.929+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:53:45.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:53:49.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:53:49.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.387 seconds
+[2026-04-14T02:54:19.450+0000] {processor.py:161} INFO - Started process (PID=3053) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:54:19.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:54:19.458+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:54:19.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:54:22.690+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:54:22.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.285 seconds
+[2026-04-14T02:54:52.892+0000] {processor.py:161} INFO - Started process (PID=3128) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:54:52.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:54:52.899+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:54:52.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:54:56.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:54:56.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.322 seconds
+[2026-04-14T02:55:26.460+0000] {processor.py:161} INFO - Started process (PID=3206) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:55:26.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:55:26.468+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:55:26.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:55:29.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:55:29.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.271 seconds
+[2026-04-14T02:56:00.036+0000] {processor.py:161} INFO - Started process (PID=3278) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:56:00.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:56:00.043+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:56:00.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:56:03.428+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:56:03.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.431 seconds
+[2026-04-14T02:56:33.809+0000] {processor.py:161} INFO - Started process (PID=3351) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:56:33.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:56:33.816+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:56:33.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:56:37.344+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:56:37.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.574 seconds
+[2026-04-14T02:57:07.732+0000] {processor.py:161} INFO - Started process (PID=3424) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:57:07.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:57:07.739+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:57:07.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:57:11.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:57:11.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.510 seconds
+[2026-04-14T02:57:41.396+0000] {processor.py:161} INFO - Started process (PID=3496) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:57:41.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:57:41.403+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:57:41.402+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:57:44.802+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:57:44.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.449 seconds
+[2026-04-14T02:58:14.947+0000] {processor.py:161} INFO - Started process (PID=3568) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:58:14.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:58:14.956+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:58:14.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:58:18.723+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:58:18.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.827 seconds
+[2026-04-14T02:58:49.553+0000] {processor.py:161} INFO - Started process (PID=3644) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:58:49.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:58:49.560+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:58:49.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:58:53.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:58:53.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.010 seconds
+[2026-04-14T02:59:23.833+0000] {processor.py:161} INFO - Started process (PID=3717) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:59:23.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:59:23.839+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:59:23.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:59:27.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:59:27.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.480 seconds
+[2026-04-14T02:59:57.669+0000] {processor.py:161} INFO - Started process (PID=3792) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T02:59:57.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T02:59:57.678+0000] {logging_mixin.py:188} INFO - [2026-04-14T02:59:57.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:00:01.096+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:00:01.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.472 seconds
+[2026-04-14T03:00:31.294+0000] {processor.py:161} INFO - Started process (PID=3869) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:00:31.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:00:31.302+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:00:31.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:00:34.988+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:00:35.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.742 seconds
+[2026-04-14T03:01:05.430+0000] {processor.py:161} INFO - Started process (PID=3944) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:01:05.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:01:05.439+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:01:05.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:01:09.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:01:09.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.999 seconds
+[2026-04-14T03:01:39.931+0000] {processor.py:161} INFO - Started process (PID=4018) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:01:39.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:01:39.939+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:01:39.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:01:43.791+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:01:43.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.902 seconds
+[2026-04-14T03:02:14.499+0000] {processor.py:161} INFO - Started process (PID=4091) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:02:14.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:02:14.507+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:02:14.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:02:18.375+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:02:18.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.925 seconds
+[2026-04-14T03:02:48.903+0000] {processor.py:161} INFO - Started process (PID=4164) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:02:48.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:02:48.912+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:02:48.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:02:54.852+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:02:54.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.007 seconds
+[2026-04-14T03:03:25.503+0000] {processor.py:161} INFO - Started process (PID=4243) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:03:25.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:03:25.513+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:03:25.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:03:29.630+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:03:29.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.172 seconds
+[2026-04-14T03:04:00.108+0000] {processor.py:161} INFO - Started process (PID=4315) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:04:00.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:04:00.116+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:04:00.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:04:03.888+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:04:03.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.824 seconds
+[2026-04-14T03:04:34.178+0000] {processor.py:161} INFO - Started process (PID=4393) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:04:34.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:04:34.185+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:04:34.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:04:37.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:04:37.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.545 seconds
+[2026-04-14T03:05:07.896+0000] {processor.py:161} INFO - Started process (PID=4468) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:05:07.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:05:07.909+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:05:07.907+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:05:11.569+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:05:11.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.718 seconds
+[2026-04-14T03:05:41.718+0000] {processor.py:161} INFO - Started process (PID=4547) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:05:41.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:05:41.725+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:05:41.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:05:45.279+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:05:45.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.604 seconds
+[2026-04-14T03:06:15.898+0000] {processor.py:161} INFO - Started process (PID=4619) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:06:15.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:06:15.906+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:06:15.905+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:06:19.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:06:19.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.645 seconds
+[2026-04-14T03:06:49.742+0000] {processor.py:161} INFO - Started process (PID=4694) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:06:49.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:06:49.749+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:06:49.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:06:53.554+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:06:53.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.855 seconds
+[2026-04-14T03:07:23.999+0000] {processor.py:161} INFO - Started process (PID=4769) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:07:24.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:07:24.010+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:07:24.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:07:27.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:07:27.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.808 seconds
+[2026-04-14T03:07:58.393+0000] {processor.py:161} INFO - Started process (PID=4844) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:07:58.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:07:58.402+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:07:58.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:08:02.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:08:02.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.021 seconds
+[2026-04-14T03:08:32.629+0000] {processor.py:161} INFO - Started process (PID=4917) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:08:32.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:08:32.637+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:08:32.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:08:36.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:08:36.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.882 seconds
+[2026-04-14T03:09:06.769+0000] {processor.py:161} INFO - Started process (PID=4991) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:09:06.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:09:06.776+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:09:06.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:09:10.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:09:10.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.638 seconds
+[2026-04-14T03:09:40.827+0000] {processor.py:161} INFO - Started process (PID=5063) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:09:40.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:09:40.835+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:09:40.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:09:44.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:09:44.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 3.970 seconds
+[2026-04-14T03:10:15.100+0000] {processor.py:161} INFO - Started process (PID=5141) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:10:15.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:10:15.132+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:10:15.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:10:22.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:10:22.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 7.535 seconds
+[2026-04-14T03:10:52.965+0000] {processor.py:161} INFO - Started process (PID=5221) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:10:52.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:10:52.974+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:10:52.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:10:59.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:10:59.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.286 seconds
+[2026-04-14T03:11:29.780+0000] {processor.py:161} INFO - Started process (PID=5305) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:11:29.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:11:29.787+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:11:29.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:11:37.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:11:37.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 7.294 seconds
+[2026-04-14T03:12:07.393+0000] {processor.py:161} INFO - Started process (PID=5381) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:12:07.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:12:07.401+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:12:07.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:12:14.026+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:12:14.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.677 seconds
+[2026-04-14T03:12:44.432+0000] {processor.py:161} INFO - Started process (PID=5457) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:12:44.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:12:44.440+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:12:44.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:12:50.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:12:50.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.713 seconds
+[2026-04-14T03:13:20.561+0000] {processor.py:161} INFO - Started process (PID=5539) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:13:20.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:13:20.569+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:13:20.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:13:26.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:13:26.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.383 seconds
+[2026-04-14T03:13:57.799+0000] {processor.py:161} INFO - Started process (PID=5622) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:13:57.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:13:57.805+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:13:57.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:14:03.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:14:03.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.194 seconds
+[2026-04-14T03:14:34.231+0000] {processor.py:161} INFO - Started process (PID=5704) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:14:34.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:14:34.238+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:14:34.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:14:38.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:14:39.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 4.791 seconds
+[2026-04-14T03:15:09.176+0000] {processor.py:161} INFO - Started process (PID=5774) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:15:09.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:15:09.184+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:15:09.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:15:14.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:15:14.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.506 seconds
+[2026-04-14T03:15:45.054+0000] {processor.py:161} INFO - Started process (PID=5853) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:15:45.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:15:45.063+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:15:45.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:15:50.736+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:15:50.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.725 seconds
+[2026-04-14T03:16:21.393+0000] {processor.py:161} INFO - Started process (PID=5928) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:16:21.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:16:21.400+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:16:21.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:16:27.869+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:16:27.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.541 seconds
+[2026-04-14T03:16:58.644+0000] {processor.py:161} INFO - Started process (PID=6013) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:16:58.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:16:58.653+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:16:58.652+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:17:04.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:17:04.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.781 seconds
+[2026-04-14T03:17:35.171+0000] {processor.py:161} INFO - Started process (PID=6095) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:17:35.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:17:35.177+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:17:35.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:17:41.064+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:17:41.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.942 seconds
+[2026-04-14T03:18:11.597+0000] {processor.py:161} INFO - Started process (PID=6170) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:18:11.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:18:11.606+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:18:11.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:18:16.952+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:18:16.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.401 seconds
+[2026-04-14T03:18:47.562+0000] {processor.py:161} INFO - Started process (PID=6244) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:18:47.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:18:47.570+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:18:47.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:18:53.053+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:18:53.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.539 seconds
+[2026-04-14T03:19:23.478+0000] {processor.py:161} INFO - Started process (PID=6321) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:19:23.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:19:23.486+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:19:23.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:19:28.674+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:19:28.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.241 seconds
+[2026-04-14T03:19:58.906+0000] {processor.py:161} INFO - Started process (PID=6400) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:19:58.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:19:58.913+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:19:58.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:20:03.948+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:20:03.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.082 seconds
+[2026-04-14T03:20:34.326+0000] {processor.py:161} INFO - Started process (PID=6486) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:20:34.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:20:34.344+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:20:34.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:20:41.244+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:20:41.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.981 seconds
+[2026-04-14T03:21:11.725+0000] {processor.py:161} INFO - Started process (PID=6563) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:21:11.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:21:11.734+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:21:11.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:21:17.890+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:21:17.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.224 seconds
+[2026-04-14T03:21:48.135+0000] {processor.py:161} INFO - Started process (PID=6639) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:21:48.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:21:48.144+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:21:48.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:21:54.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:21:54.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.172 seconds
+[2026-04-14T03:22:24.542+0000] {processor.py:161} INFO - Started process (PID=6717) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:22:24.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:22:24.552+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:22:24.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:22:31.087+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:22:31.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.621 seconds
+[2026-04-14T03:23:01.630+0000] {processor.py:161} INFO - Started process (PID=6787) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:23:01.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:23:01.641+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:23:01.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:23:10.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:23:11.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 9.806 seconds
+[2026-04-14T03:23:41.581+0000] {processor.py:161} INFO - Started process (PID=6865) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:23:41.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:23:41.590+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:23:41.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:23:47.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:23:47.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.276 seconds
+[2026-04-14T03:24:18.384+0000] {processor.py:161} INFO - Started process (PID=6946) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:24:18.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:24:18.391+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:24:18.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:24:27.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:24:27.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 9.424 seconds
+[2026-04-14T03:24:57.966+0000] {processor.py:161} INFO - Started process (PID=7029) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:24:57.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:24:57.976+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:24:57.975+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:25:04.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:25:04.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.881 seconds
+[2026-04-14T03:25:35.295+0000] {processor.py:161} INFO - Started process (PID=7116) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:25:35.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:25:35.302+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:25:35.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:25:41.872+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:25:41.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.629 seconds
+[2026-04-14T03:26:12.059+0000] {processor.py:161} INFO - Started process (PID=7195) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:26:12.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:26:12.067+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:26:12.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:26:17.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:26:17.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.571 seconds
+[2026-04-14T03:26:48.006+0000] {processor.py:161} INFO - Started process (PID=7269) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:26:48.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:26:48.013+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:26:48.012+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:26:53.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:26:53.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.042 seconds
+[2026-04-14T03:27:23.210+0000] {processor.py:161} INFO - Started process (PID=7345) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:27:23.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:27:23.220+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:27:23.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:27:28.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:27:28.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.747 seconds
+[2026-04-14T03:27:59.422+0000] {processor.py:161} INFO - Started process (PID=7420) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:27:59.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:27:59.430+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:27:59.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:28:06.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:28:06.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.688 seconds
+[2026-04-14T03:28:36.426+0000] {processor.py:161} INFO - Started process (PID=7499) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:28:36.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:28:36.434+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:28:36.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:28:44.279+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:28:44.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 7.904 seconds
+[2026-04-14T03:29:14.623+0000] {processor.py:161} INFO - Started process (PID=7584) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:29:14.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:29:14.632+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:29:14.630+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:29:22.299+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:29:22.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 7.724 seconds
+[2026-04-14T03:29:53.375+0000] {processor.py:161} INFO - Started process (PID=7663) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:29:53.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:29:53.384+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:29:53.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:29:59.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:30:00.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 6.733 seconds
+[2026-04-14T03:30:30.776+0000] {processor.py:161} INFO - Started process (PID=7742) to work on /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:30:30.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_price_pipeline.py for tasks to queue
+[2026-04-14T03:30:30.784+0000] {logging_mixin.py:188} INFO - [2026-04-14T03:30:30.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:30:36.664+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_price_pipeline.py
+[2026-04-14T03:30:36.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_price_pipeline.py took 5.942 seconds

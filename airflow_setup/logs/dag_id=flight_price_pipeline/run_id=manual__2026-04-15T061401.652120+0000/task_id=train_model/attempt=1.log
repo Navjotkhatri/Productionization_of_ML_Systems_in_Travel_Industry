@@ -1,0 +1,60 @@
+[2026-04-15T06:19:30.978+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-15T06:19:31.042+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_price_pipeline.train_model manual__2026-04-15T06:14:01.652120+00:00 [queued]>
+[2026-04-15T06:19:31.083+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_price_pipeline.train_model manual__2026-04-15T06:14:01.652120+00:00 [queued]>
+[2026-04-15T06:19:31.088+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-04-15T06:19:31.147+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): train_model> on 2026-04-15 06:14:01.652120+00:00
+[2026-04-15T06:19:31.170+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2158) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-15T06:19:31.176+0000] {standard_task_runner.py:63} INFO - Started process 2160 to run task
+[2026-04-15T06:19:31.174+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'flight_price_pipeline', 'train_model', 'manual__2026-04-15T06:14:01.652120+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/flight_price_pipeline.py', '--cfg-path', '/tmp/tmpd50cub0f']
+[2026-04-15T06:19:31.185+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask train_model
+[2026-04-15T06:19:31.356+0000] {task_command.py:426} INFO - Running <TaskInstance: flight_price_pipeline.train_model manual__2026-04-15T06:14:01.652120+00:00 [running]> on host b10e990e77bb
+[2026-04-15T06:19:31.634+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='flight_price_pipeline' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2026-04-15T06:14:01.652120+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-15T06:14:01.652120+00:00'
+[2026-04-15T06:19:31.641+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-15T06:19:38.529+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-15T06:19:38.531+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/flight_price_pipeline.py", line 130, in train_model
+    lr.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/linear_model/_base.py", line 630, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1074, in check_array
+    _assert_all_finite(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/validation.py", line 133, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/validation.py", line 182, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+[2026-04-15T06:19:38.577+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=flight_price_pipeline, task_id=train_model, run_id=manual__2026-04-15T06:14:01.652120+00:00, execution_date=20260415T061401, start_date=20260415T061931, end_date=20260415T061938
+[2026-04-15T06:19:38.619+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 30 for task train_model (Input X contains NaN.
+LinearRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values; 2160)
+[2026-04-15T06:19:38.670+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-04-15T06:19:38.714+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-15T06:19:38.722+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

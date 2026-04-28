@@ -1,0 +1,1 @@
+[2026-04-15T08:09:23.276+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: flight_price_pipeline.merge_data manual__2026-04-15T08:09:22.213952+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
