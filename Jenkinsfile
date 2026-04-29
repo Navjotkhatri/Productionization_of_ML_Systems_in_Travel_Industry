@@ -4,34 +4,33 @@ pipeline {
     stages {
 
         stage('Checkout Code') {
-    steps {
-        git branch: 'main',
-            url: 'https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry.git'
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry.git'
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                bat 'pip install -r requirements.txt'
-                bat 'pip install mlflow lightgbm xgboost'
+                sh 'pip install -r requirements.txt'
             }
         }
 
         stage('Train Model with MLflow') {
             steps {
-                bat 'python mlflow_train.py'
+                sh 'python mlflow_train.py'
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t travel-ml-app .'
+                sh 'docker build -t flight-price-app .'
             }
         }
 
         stage('Run Container') {
             steps {
-                bat 'docker run -d -p 5000:5000 --name travelapp travel-ml-app'
+                sh 'docker run -d -p 8501:8501 flight-price-app'
             }
         }
 
