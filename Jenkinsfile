@@ -4,8 +4,9 @@ pipeline {
     stages {
 
         stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry.git'
+    steps {
+        git branch: 'main',
+            url: 'https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry.git'
             }
         }
 
