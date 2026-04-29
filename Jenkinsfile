@@ -3,27 +3,40 @@ pipeline {
 
     stages {
 
-        stage('Build Docker') {
+        stage('Checkout Code') {
             steps {
-                echo 'Build Started'
+                git 'https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry.git'
             }
         }
 
-        stage('Run Airflow') {
+        stage('Install Dependencies') {
             steps {
-                echo 'Airflow Started'
+                bat 'pip install -r requirements.txt'
+                bat 'pip install mlflow lightgbm xgboost'
             }
         }
 
-        stage('Trigger DAG') {
+        stage('Train Model with MLflow') {
             steps {
-                echo 'Flight Price DAG Triggered'
+                bat 'python mlflow_train.py'
             }
         }
 
-        stage('Check Status') {
+        stage('Build Docker Image') {
             steps {
-                echo 'Pipeline Successful'
+                bat 'docker build -t travel-ml-app .'
+            }
+        }
+
+        stage('Run Container') {
+            steps {
+                bat 'docker run -d -p 5000:5000 --name travelapp travel-ml-app'
+            }
+        }
+
+        stage('Success') {
+            steps {
+                echo 'Pipeline completed successfully'
             }
         }
     }
