@@ -10,21 +10,15 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
+        stage('Build Docker Image') {
             steps {
-                sh 'pip install -r requirements.txt'
+                sh 'docker build -t flight-price-app .'
             }
         }
 
         stage('Train Model with MLflow') {
             steps {
-                sh 'python mlflow_train.py'
-            }
-        }
-
-        stage('Build Docker Image') {
-            steps {
-                sh 'docker build -t flight-price-app .'
+                sh 'docker run flight-price-app python mlflow_train.py'
             }
         }
 
