@@ -10,27 +10,51 @@ pipeline {
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Install Python') {
             steps {
-                sh 'docker build -t flight-price-app .'
+                sh '''
+                apt update
+                apt install -y python3 python3-pip
+                '''
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh '''
+                pip3 install -r requirements.txt
+                '''
             }
         }
 
         stage('Train Model with MLflow') {
             steps {
-                sh 'docker run flight-price-app python mlflow_train.py'
+                sh '''
+                python3 mlflow_train.py
+                '''
             }
         }
 
-        stage('Run Container') {
+        stage('Build Docker Image') {
             steps {
-                sh 'docker run -d -p 8501:8501 flight-price-app'
+                sh '''
+                docker build -t flight-price-app .
+                '''
+            }
+        }
+
+        stage('Run Docker Container') {
+            steps {
+                sh '''
+                docker rm -f flight-container || true
+                docker run -d -p 5001:5001 --name flight-container flight-price-app
+                '''
             }
         }
 
         stage('Success') {
             steps {
-                echo 'Pipeline completed successfully'
+                echo 'CI/CD Pipeline Executed Successfully'
             }
         }
     }
