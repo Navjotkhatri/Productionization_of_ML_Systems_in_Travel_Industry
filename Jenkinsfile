@@ -13,13 +13,9 @@ pipeline {
         stage('Train Model with MLflow') {
             steps {
                 sh '''
-                python3 -m venv venv
-                . venv/bin/activate
+                python3 -m pip install --break-system-packages -r requirements.txt
 
-                pip install --upgrade pip
-                pip install -r requirements.txt
-
-                python mlflow_train.py
+                python3 mlflow_train.py
                 '''
             }
         }
