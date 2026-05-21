@@ -1,5 +1,5 @@
 # Use the official Python 3.9 slim-buster image
-FROM python:3.9-slim-buster
+FROM python:3.9-slim
 
 # Install system dependencies required by Python packages, including git
 RUN apt-get update && apt-get install -y \

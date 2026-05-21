@@ -10,51 +10,30 @@ pipeline {
             }
         }
 
-        stage('Install Python') {
-            steps {
-                sh '''
-                apt update
-                apt install -y python3 python3-pip
-                '''
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                sh '''
-                pip3 install -r requirements.txt
-                '''
-            }
-        }
-
         stage('Train Model with MLflow') {
             steps {
-                sh '''
-                python3 mlflow_train.py
-                '''
+                sh 'python3 -m pip install -r requirements.txt'
+                sh 'python3 mlflow_train.py'
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                sh '''
-                docker build -t flight-price-app .
-                '''
+                sh 'docker build -t flight-price-app .'
             }
         }
 
-        stage('Run Docker Container') {
+        stage('Run Flask Container') {
             steps {
-                sh '''
-                docker rm -f flight-container || true
-                docker run -d -p 5001:5001 --name flight-container flight-price-app
-                '''
+                sh 'docker stop flight-app || true'
+                sh 'docker rm flight-app || true'
+                sh 'docker run -d -p 8000:8000 --name flight-app flight-price-app'
             }
         }
 
         stage('Success') {
             steps {
-                echo 'CI/CD Pipeline Executed Successfully'
+                echo 'Pipeline completed successfully'
             }
         }
     }

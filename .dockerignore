@@ -1,0 +1,5 @@
+airflow_setup/logs
+mlruns
+venv
+__pycache__
+*.pyc
