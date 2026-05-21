@@ -12,8 +12,15 @@ pipeline {
 
         stage('Train Model with MLflow') {
             steps {
-                sh 'python3 -m pip install -r requirements.txt'
-                sh 'python3 mlflow_train.py'
+                sh '''
+                python3 -m venv venv
+                . venv/bin/activate
+
+                pip install --upgrade pip
+                pip install -r requirements.txt
+
+                python mlflow_train.py
+                '''
             }
         }
 
@@ -25,9 +32,12 @@ pipeline {
 
         stage('Run Flask Container') {
             steps {
-                sh 'docker stop flight-app || true'
-                sh 'docker rm flight-app || true'
-                sh 'docker run -d -p 8000:8000 --name flight-app flight-price-app'
+                sh '''
+                docker stop flight-app || true
+                docker rm flight-app || true
+
+                docker run -d -p 8000:8000 --name flight-app flight-price-app
+                '''
             }
         }
     }
