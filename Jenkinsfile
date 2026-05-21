@@ -30,11 +30,5 @@ pipeline {
                 sh 'docker run -d -p 8000:8000 --name flight-app flight-price-app'
             }
         }
-
-        stage('Success') {
-            steps {
-                echo 'Pipeline completed successfully'
-            }
-        }
     }
 }
