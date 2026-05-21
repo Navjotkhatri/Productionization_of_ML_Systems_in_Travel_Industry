@@ -10,6 +10,9 @@ from sklearn.linear_model import LinearRegression
 from lightgbm import LGBMRegressor
 from xgboost import XGBRegressor
 
+import mlflow
+
+mlflow.set_tracking_uri("http://host.docker.internal:5001")
 # ----------------------------
 # Load Data
 # ----------------------------
