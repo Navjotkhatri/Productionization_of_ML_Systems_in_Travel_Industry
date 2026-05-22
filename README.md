@@ -255,7 +255,7 @@ Flask Application
 This architecture creates a complete production-ready MLOps pipeline for automated machine learning workflows.
 
 <p align="center">
-    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-11%20132155.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/airflow_ss.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
 </p>
 
 ## Conclusion
