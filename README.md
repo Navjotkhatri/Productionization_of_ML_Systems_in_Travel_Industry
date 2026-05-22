@@ -332,6 +332,120 @@ Flask Application Deployment
 
 The Jenkins CI/CD pipeline successfully automates the end-to-end MLOps workflow, including code integration, model training, experiment tracking, Docker containerization, and Flask deployment. This setup improves scalability, reproducibility, and deployment efficiency for machine learning systems.
 
+# 7. Model Tracking with MLflow
+
+<p>
+    <img src="https://img.shields.io/badge/Model%20Tracking-MLflow-blue" alt="MLflow" />
+    <img src="https://img.shields.io/badge/Experiment%20Tracking-Enabled-blue" alt="Experiment Tracking" />
+    <img src="https://img.shields.io/badge/Model%20Versioning-Automated-blue" alt="Model Versioning" />
+    <img src="https://img.shields.io/badge/Metrics-Logged-blue" alt="Metrics" />
+    <img src="https://img.shields.io/badge/Artifacts-Stored-blue" alt="Artifacts" />
+    <img src="https://img.shields.io/badge/MLOps-Production%20Ready-blue" alt="MLOps" />
+</p>
+
+## Overview
+
+MLflow is integrated into this project to manage and track machine learning experiments efficiently. It provides a centralized platform for logging model parameters, metrics, artifacts, and different model versions during training.
+
+This helps improve reproducibility, experiment comparison, and model lifecycle management in the Flight Price Prediction System.
+
+## Key Features
+
+- **Experiment Tracking:** Logs all model training experiments automatically.
+- **Parameter Logging:** Stores hyperparameters used during training.
+- **Metric Monitoring:** Tracks evaluation metrics such as accuracy and RMSE.
+- **Artifact Storage:** Saves trained models and related files.
+- **Model Versioning:** Maintains different versions of trained models.
+- **Centralized Dashboard:** Provides a visual interface for monitoring experiments.
+
+## MLflow Workflow
+
+```text
+Data Preprocessing
+        ↓
+Model Training
+        ↓
+MLflow Logging
+        ↓
+Metrics & Parameters Storage
+        ↓
+Model Artifact Storage
+        ↓
+Experiment Visualization
+```
+
+## MLflow Components Used
+
+### 1. Experiment Tracking
+Tracks:
+- Model runs
+- Parameters
+- Metrics
+- Execution time
+
+### 2. Model Logging
+Stores trained machine learning models for future use and deployment.
+
+### 3. Artifact Management
+Saves:
+- Serialized models
+- Preprocessing files
+- Evaluation reports
+
+### 4. MLflow UI
+Provides a web dashboard for comparing experiments and monitoring model performance.
+
+## Running MLflow UI
+
+### Start MLflow Server
+
+```bash
+mlflow ui
+```
+
+### Access MLflow Dashboard
+
+```text
+http://localhost:5001
+```
+
+## Technologies Used
+
+- MLflow
+- Python
+- Scikit-learn
+- Docker
+- Jenkins
+- Flask
+
+## Benefits of MLflow
+
+- Improved experiment reproducibility
+- Efficient model version management
+- Easy comparison of training runs
+- Centralized experiment tracking
+- Simplified deployment workflow
+
+## Integration with CI/CD Pipeline
+
+```text
+GitHub Repository
+        ↓
+Jenkins Pipeline
+        ↓
+Docker Container
+        ↓
+MLflow Tracking
+        ↓
+Flask Deployment
+```
+
+Each Jenkins pipeline execution automatically creates a new MLflow run, enabling continuous monitoring and tracking of machine learning experiments.
+
+## Conclusion
+
+MLflow enhances the MLOps capabilities of the project by enabling systematic experiment tracking, model versioning, artifact storage, and performance monitoring. This creates a scalable and production-ready machine learning workflow.
+
 # 8. Gender Classification Project
 
 <p>
