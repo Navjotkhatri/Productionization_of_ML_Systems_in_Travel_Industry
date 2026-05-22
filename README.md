@@ -152,6 +152,116 @@ In this section, we deploy our model using Kubernetes to ensure that the applica
 
 Deploying the model with Kubernetes ensures that it can handle varying loads and scale efficiently. This setup provides a robust, scalable, and highly available deployment environment for the application.
 
+
+# 5. Automated Workflows with Apache Airflow
+
+<p>
+    <img src="https://img.shields.io/badge/Workflow-Apache%20Airflow-blue" alt="Apache Airflow" />
+    <img src="https://img.shields.io/badge/Automation-Workflow%20Scheduling-blue" alt="Workflow Scheduling" />
+    <img src="https://img.shields.io/badge/MLOps-Integrated-blue" alt="MLOps" />
+    <img src="https://img.shields.io/badge/MLflow-Experiment%20Tracking-blue" alt="MLflow" />
+    <img src="https://img.shields.io/badge/Deployment-Docker-blue" alt="Docker" />
+    <img src="https://img.shields.io/badge/Application-Flask-blue" alt="Flask" />
+</p>
+
+## Overview
+
+In this project, Apache Airflow is used to automate and orchestrate the complete machine learning workflow for the Travel Industry Prediction System. Airflow helps manage task dependencies, automate retraining pipelines, and schedule workflows efficiently.
+
+The pipeline integrates data processing, model training, MLflow experiment tracking, Docker deployment, and Flask application serving into a unified automated workflow.
+
+## Key Features
+
+- **Workflow Automation:** Automates end-to-end ML workflows using DAGs.
+- **Task Scheduling:** Supports scheduled model training and retraining.
+- **Pipeline Monitoring:** Tracks task execution and workflow status.
+- **Scalability:** Efficiently manages complex ML pipelines.
+- **Integration Support:** Works seamlessly with Docker, MLflow, Jenkins, and Flask.
+
+## Airflow Workflow Architecture
+
+```text
+Data Collection
+       ↓
+Data Preprocessing
+       ↓
+Model Training
+       ↓
+MLflow Experiment Tracking
+       ↓
+Docker Containerization
+       ↓
+Flask Deployment
+```
+## DAG Workflow Components
+
+### 1. Data Ingestion
+Loads raw travel and flight datasets into the workflow pipeline.
+
+### 2. Data Preprocessing
+Handles:
+- Missing values
+- Feature engineering
+- Encoding
+- Data transformation
+
+### 3. Model Training
+Trains machine learning models using Scikit-learn and other ML libraries.
+
+### 4. MLflow Integration
+Tracks:
+- Model parameters
+- Metrics
+- Artifacts
+- Experiment history
+
+### 5. Deployment Automation
+Deploys the trained model using Docker and serves predictions through Flask.
+
+## Technologies Used
+
+- Apache Airflow
+- Python
+- Docker
+- MLflow
+- Flask
+- Jenkins
+
+## Benefits of Apache Airflow
+
+- Automated pipeline execution
+- Scheduled retraining workflows
+- Better reproducibility
+- Workflow monitoring and logging
+- Simplified orchestration
+- Scalable production deployment
+
+## CI/CD and MLOps Integration
+
+```text
+GitHub
+   ↓
+Jenkins CI/CD
+   ↓
+Apache Airflow
+   ↓
+Docker Deployment
+   ↓
+MLflow Tracking
+   ↓
+Flask Application
+```
+
+This architecture creates a complete production-ready MLOps pipeline for automated machine learning workflows.
+
+<p align="center">
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/Screenshot%202024-08-11%20132155.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
+</p>
+
+## Conclusion
+
+Apache Airflow significantly improves the automation and orchestration capabilities of this project by enabling scheduled execution, workflow monitoring, and seamless integration with modern MLOps tools. This results in a scalable, reproducible, and production-ready machine learning pipeline.
+
 # 8. Gender Classification Project
 
 <p>
