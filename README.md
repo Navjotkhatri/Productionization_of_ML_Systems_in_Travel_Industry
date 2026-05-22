@@ -262,6 +262,76 @@ This architecture creates a complete production-ready MLOps pipeline for automat
 
 Apache Airflow significantly improves the automation and orchestration capabilities of this project by enabling scheduled execution, workflow monitoring, and seamless integration with modern MLOps tools. This results in a scalable, reproducible, and production-ready machine learning pipeline.
 
+# 6. CI/CD Pipeline with Jenkins
+
+<p>
+    <img src="https://img.shields.io/badge/CI%2FCD-Jenkins-blue" alt="Jenkins" />
+    <img src="https://img.shields.io/badge/Automation-Build%20Pipeline-blue" alt="Build Pipeline" />
+    <img src="https://img.shields.io/badge/Docker-Containerized-blue" alt="Docker" />
+    <img src="https://img.shields.io/badge/MLflow-Integrated-blue" alt="MLflow" />
+    <img src="https://img.shields.io/badge/Deployment-Flask%20Application-blue" alt="Flask Deployment" />
+    <img src="https://img.shields.io/badge/Version%20Control-GitHub-blue" alt="GitHub" />
+</p>
+
+## Overview
+
+In this section, we implemented a complete CI/CD pipeline using Jenkins to automate the machine learning workflow for the Flight Price Prediction application. The pipeline integrates GitHub, Docker, MLflow, and Flask deployment to ensure seamless automation from code integration to application deployment.
+
+## Key Features
+
+- **Automated Pipeline:** Jenkins automatically pulls the latest code from the GitHub repository whenever changes are pushed.
+
+- **Docker Integration:** The application is containerized using Docker, ensuring consistent environments across development and deployment.
+
+- **MLflow Tracking:** Model training runs are automatically logged into MLflow for experiment tracking, parameter monitoring, and artifact storage.
+
+- **Flask Deployment:** After successful model training and image creation, the Flask web application is deployed automatically inside a Docker container.
+
+- **Continuous Integration:** Ensures code quality and smooth integration of updates into the production workflow.
+
+- **Continuous Deployment:** Reduces manual deployment effort and enables faster delivery of model updates.
+
+## CI/CD Workflow
+
+```text
+GitHub Repository
+        ↓
+Jenkins Pipeline
+        ↓
+Docker Image Build
+        ↓
+MLflow Experiment Tracking
+        ↓
+Flask Application Deployment
+```
+
+## Jenkins Pipeline Stages
+
+1. **Checkout Code**  
+   Jenkins pulls the latest source code from the GitHub repository.
+
+2. **Build Docker Image**  
+   Docker builds the application image using the Dockerfile.
+
+3. **Run MLflow Training**  
+   The ML model training script executes and logs metrics to MLflow.
+
+4. **Deploy Flask Application**  
+   The trained model is deployed using a Flask web application inside a Docker container.
+
+## Technologies Used
+
+- Jenkins
+- Docker
+- MLflow
+- Flask
+- GitHub
+- Python
+
+## Conclusion
+
+The Jenkins CI/CD pipeline successfully automates the end-to-end MLOps workflow, including code integration, model training, experiment tracking, Docker containerization, and Flask deployment. This setup improves scalability, reproducibility, and deployment efficiency for machine learning systems.
+
 # 8. Gender Classification Project
 
 <p>
