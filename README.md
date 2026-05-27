@@ -236,24 +236,6 @@ Deploys the trained model using Docker and serves predictions through Flask.
 - Simplified orchestration
 - Scalable production deployment
 
-## CI/CD and MLOps Integration
-
-```text
-GitHub
-   ↓
-Jenkins CI/CD
-   ↓
-Apache Airflow
-   ↓
-Docker Deployment
-   ↓
-MLflow Tracking
-   ↓
-Flask Application
-```
-
-This architecture creates a complete production-ready MLOps pipeline for automated machine learning workflows.
-
 <p align="center">
     <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/airflow_ss.png?raw=true" alt="Flight Price Prediction Form" width="600"/>
 </p>
@@ -395,19 +377,6 @@ Saves:
 ### 4. MLflow UI
 Provides a web dashboard for comparing experiments and monitoring model performance.
 
-## Running MLflow UI
-
-### Start MLflow Server
-
-```bash
-mlflow ui
-```
-
-### Access MLflow Dashboard
-
-```text
-http://localhost:5001
-```
 
 ## Technologies Used
 
@@ -529,4 +498,71 @@ Models were evaluated using the following metrics:
 The logistic regression model was selected as the final model due to its perfect accuracy and ease of interpretation. SHAP analysis confirmed the model's transparency, making it suitable for deployment and decision-making.
 
 
+
+## 9. Travel Recommendation Model
+
+<p>
+    <img src="https://img.shields.io/badge/Recommendation%20System-Travel-blue" alt="Travel Recommendation" />
+    <img src="https://img.shields.io/badge/Frontend-Streamlit-red" alt="Streamlit" />
+    <img src="https://img.shields.io/badge/Visualization-Interactive-green" alt="Visualization" />
+    <img src="https://img.shields.io/badge/Data%20Analysis-Pandas-orange" alt="Pandas" />
+    <img src="https://img.shields.io/badge/User%20Experience-Interactive-brightgreen" alt="UX" />
+</p>
+
+### Overview
+
+The Travel Recommendation Model provides personalized travel and hotel recommendations based on user preferences and historical travel data. The system analyzes destinations, travel duration, and pricing information to recommend suitable travel packages.
+
+A Streamlit web application was developed to create an interactive and user-friendly dashboard for exploring travel recommendations and insights.
+
+---
+
+### Features
+
+- Personalized travel recommendations
+- Interactive Streamlit dashboard
+- Destination-based filtering
+- Travel package comparison
+- Interactive visualizations
+- User-friendly interface
+  
+### Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Machine Learning
+
+### System Workflow
+
+```text
+User Input
+     ↓
+Travel Recommendation Engine
+     ↓
+Filtered Travel Packages
+     ↓
+Interactive Visualizations
+     ↓
+Streamlit Dashboard
+```
+
+### Running the Streamlit Application
+
+```bash
+python -m streamlit run streamlit_app.py
+```
+
+### Functionalities
+
+- Select preferred destination
+- View recommended travel packages
+- Compare travel pricing
+- Explore travel duration and total cost
+- Analyze travel insights visually
+
+### Outcome
+
+This module demonstrates the integration of recommendation systems with interactive web applications. The Streamlit dashboard improves user experience by enabling real-time travel exploration and visualization.
 
