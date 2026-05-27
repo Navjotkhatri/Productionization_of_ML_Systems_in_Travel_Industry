@@ -287,6 +287,11 @@ MLflow Experiment Tracking
 Flask Application Deployment
 ```
 
+<p align="center">
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/ci-cdss.png?raw=true" alt="Flight Price Prediction" width="600"/>
+</p>
+
+
 ## Jenkins Pipeline Stages
 
 1. **Checkout Code**  
@@ -356,6 +361,7 @@ Model Artifact Storage
 Experiment Visualization
 ```
 
+
 ## MLflow Components Used
 
 ### 1. Experiment Tracking
@@ -376,6 +382,10 @@ Saves:
 
 ### 4. MLflow UI
 Provides a web dashboard for comparing experiments and monitoring model performance.
+
+<p align="center">
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/mlflow.png?raw=true" alt="Flight Price Prediction" width="600"/>
+</p>
 
 
 ## Technologies Used
@@ -553,6 +563,10 @@ Streamlit Dashboard
 ```bash
 python -m streamlit run streamlit_app.py
 ```
+
+<p align="center">
+    <img src="https://github.com/Navjotkhatri/Productionization_of_ML_Systems_in_Travel_Industry/blob/main/streamlitss.png?raw=true" alt="Flight Price Prediction" width="600"/>
+</p>
 
 ### Functionalities
 
